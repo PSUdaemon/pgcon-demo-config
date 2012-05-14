@@ -1,4 +1,5 @@
 /opt/omnipitr/bin/omnipitr-backup-slave \
+    -pp /usr/pgsql-9.1/bin/pg_controldata \
     -D /var/lib/pgsql/9.1/demo \
     -h master \
     -s /var/lib/pgsql/9.1/walarchive \
